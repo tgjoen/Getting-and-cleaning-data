@@ -3,11 +3,11 @@
 #Labels the data with descriptive names
 #Creates a  new datset with only mean values for each activity and individual (tidy set)
 
-#if (!require("reshape2")) install.packages("reshape2")
-#install.packages("reshape2")
+if (!require("reshape2")) install.packages("reshape2")
+install.packages("reshape2")
 
-#if (!require("data.table")) install.packages("data.table")
-#install.packages("data.table")
+if (!require("data.table")) install.packages("data.table")
+install.packages("data.table")
 
 
 

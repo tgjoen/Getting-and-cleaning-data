@@ -1,0 +1,58 @@
+##Code book: run_analysis
+
+
+
+##Datafiles
+
+Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+##Data set information                                                                    
+                                                                        
+The dataset contains registrations from smartphone movement sensors
+
+##Variables:
+
+act_labels - what kind of activity (running, walking ect)
+ 
+readings = list of all measurements (names of variables)
+
+extract_mean_std = subset of data containing only mean and standard deviations
+
+#Read files with data
+x_test= raw data 
+
+y_test= list of numbers from 1-6 indicating what kind od activity (walking, sitting ect)
+
+subject_test = list of numbers denoting subjects upon which measurements were made in the test group
+
+Activity_ID = column heading for y_test
+
+Type_of_Activity = column heading for act_labels
+
+test_data = data table were raw data and activity and persons have been merged
+                                          
+x_train = raw data for train group
+
+y_train = list of numbers from 1-6 indicating what kind od activity (walking, sitting ect) for the train group
+
+
+subject_train = ist of numbers denoting subjects upon which measurements were made in the train group
+
+
+train_data = data table were raw data and activity and persons have been merged
+
+
+data =  test and train data combined
+
+id_labels = column headings
+
+data_labels = column headings
+
+all_data = all data combined with column headings
+
+
+tidy_data = mean values of all data
+
+
+

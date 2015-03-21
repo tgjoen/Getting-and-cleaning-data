@@ -1,0 +1,13 @@
+The course project does the following: 
+        1.	Merges two data sets into one (train and test).
+	2.	Extracts mean and std values
+	3.	Adds a column of numbers and another column of names for the type of activity measured by the senses
+	4.	Labels the dataset columns with explanatory headings
+	5.	Writes a ned file tidy_data containing identifiers for subjects and activities and a subset of the measurements (mean values)
+
+	1.	Download the raw data and put it into a folder
+	2.	Put the program in the parent folder of the datasets
+	3.	Run the program and check for the tidy_data file
+
+
+The program depends on the packages "reshape2" and "data.table"
